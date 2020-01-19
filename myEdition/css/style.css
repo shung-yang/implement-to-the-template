@@ -1,0 +1,42 @@
+body{
+	margin: 0;
+}
+
+#header{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #f6f6f6;
+}
+
+.headContainer{
+	padding-left: 27%;/********************/
+	padding-right: 27%;/***********************/
+}
+
+.navLink{
+	margin-left: 70px;
+}
+
+.navLink a{
+	color:#888888;
+	text-decoration: none;
+}
+
+.homePic{
+	padding-left: 16%;/********************/
+	padding-right: 16%;/***********************/
+}
+
+.newProduct{
+	background-color: #e7e7e7;
+
+}
+
+.productContent{
+	display: inline-block;
+}
+
+.newProduct div{
+	position: relative;
+	top:-120px;
+}
