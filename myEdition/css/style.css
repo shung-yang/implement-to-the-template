@@ -40,3 +40,26 @@ body{
 	position: relative;
 	top:-120px;
 }
+
+.content_ToolBar{
+	background-color: #c8c10d;
+}
+
+.content_ToolBar span{
+	display: inline-block;
+	/*background-color: #000000;/*/
+	width: 80px;
+	height: 44px;
+	overflow: hidden;
+	/*border: 1px #ff0000;     why no effect??????*/
+}
+
+.content_ToolBar span a img{
+	position: relative;
+	top: -372px;
+	left: -6px;
+}
+.socialMedia{
+	background-color: #cb3362;
+}
+
