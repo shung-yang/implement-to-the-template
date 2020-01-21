@@ -29,11 +29,12 @@ body{
 
 .newProduct{
 	background-color: #e7e7e7;
-
+	text-align: center;
 }
 
 .productContent{
 	display: inline-block;
+	text-align: none;
 }
 
 .newProduct div{
@@ -43,22 +44,52 @@ body{
 
 .content_ToolBar{
 	background-color: #c8c10d;
+	font-size: 0;	/* eliminate space between span */
+	text-align: center;
 }
 
-.content_ToolBar span{
+.content_ToolBar div.icon_block{
 	display: inline-block;
-	/*background-color: #000000;/*/
-	width: 80px;
+	margin: 33px 33px;
+}
+
+.content_ToolBar div span.content_icon{
+	display: inline-block;	/* Make span enable to set width, height*/
+	/*background-color: #000000;*/
+	width: 80px;	/*80*/
 	height: 44px;
 	overflow: hidden;
-	/*border: 1px #ff0000;     why no effect??????*/
 }
 
-.content_ToolBar span a img{
+.content_ToolBar div span a img#products{
 	position: relative;
 	top: -372px;
 	left: -6px;
 }
+
+.content_ToolBar div p{
+	font-size: 21px;
+	color: white;
+}
+
+.content_ToolBar div span a img#ourStory{
+	position: relative;
+	top: -416px;
+	left: -4px;
+}
+
+.content_ToolBar div span a img#flavors{
+	position: relative;
+	top: -279px;
+	left: 5px;
+}
+
+.content_ToolBar div span a img#ourLocation{
+	position: relative;
+	top: -323px;
+	left: 0px;
+}
+
 .socialMedia{
 	background-color: #cb3362;
 }
