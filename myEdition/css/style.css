@@ -92,5 +92,36 @@ body{
 
 .socialMedia{
 	background-color: #cb3362;
+	text-align: center;
+	padding: 20px;
 }
+
+.socialMedia span.contact_icon{
+	/*background-color: #000;*/
+	display: inline-block;
+	overflow: hidden;
+	width: 30px;
+	height: 30px;
+	margin: 15px 15px;
+}
+
+.socialMedia #twitter{
+	position: relative;
+	top: -95px;
+}
+
+.socialMedia #google{
+	position: relative;
+	top: -32px;
+}
+
+.socialMedia #pinterest{
+	position: relative;
+	top: -63px;
+}
+
+.socialMedia h5{
+	color:white;
+}
+/*.socialMedia #*/
 
